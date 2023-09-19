@@ -27,6 +27,17 @@ Esse projeto tem como principal objetivo estudar a interação com APIs e lógic
 
 pretendo implementar uma pesquisa de pokémons.
 
+
+## como iniciar o projeto
+
+1. Clone o repositório e abra o arquivo index.html:
+
+   ```sh
+   git clone https://github.com/desenvolvedormatheus/js-developer-pokedex.git
+   ```
+
+2. Use o github pages pelo link: [Jogo da velha](https://desenvolvedormatheus.github.io/js-developer-pokedex/).
+
 ## Autor
 
 **Matheus P. Souza**
