@@ -7,7 +7,7 @@
     margin: auto;
     margin-top: 2rem;
     border-radius: 1rem;
-    width: 350px;
+    max-width: 350px;
     position: relative;
     border: 1px solid #000;
 }
@@ -109,4 +109,27 @@
     letter-spacing: 2px;
     color: #fff;
     filter: drop-shadow(3px 3px 0 #3564ae);
+}
+
+@media screen and (max-width: 500px) {
+    .card-h1{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    .card-h1{
+        font-size: 1.4rem;
+    }
+    .card-figure img{
+        max-height: 200px;
+    }
+    .detailsPokemon{
+        max-width: 280px;
+    }
+    .card-number{
+        padding-right: 1rem;
+    }
+    .iconPokebola{
+        scale: 1.4;
+    }
 }
