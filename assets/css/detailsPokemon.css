@@ -1,3 +1,111 @@
-/* .content {
+/* card desaparecer */
+.displayHidden{
     display: none;
-} */
+}
+/* card */
+.detailsPokemon{
+    margin: auto;
+    border-radius: 1rem;
+    width: 350px;
+    position: relative;
+    border: 1px solid #000;
+}
+.detailsPokemon main{
+    border-radius: 1rem;
+}
+/* cabecalho */
+.detailsPokemon header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    background: #f04037;
+    border-bottom: 4px solid #58585b;
+}
+.card-h1, .card-number{
+    background: #ffffff;
+    padding: 0.3rem 1rem;
+    color: #58585b;
+    font-family: 'pokemonSolid';
+    letter-spacing: 3px;
+}
+.card-h1{
+    border-radius: 0 1rem 1rem 0;
+    text-transform: capitalize;
+}
+.card-number{
+    border-radius: 1rem 0 0 1rem;
+    margin-left: auto;
+    padding-right: 2rem;
+}
+.iconPokebola{
+    width: 60px;
+    scale: 1.7;
+    transform: rotate(15deg);
+}
+.iconPokebola:hover{
+    animation: swing infinite linear 1s;
+}
+
+/* Imagem pokemon */
+.card-figure{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.card-figure img{
+    max-height: 300px;
+}
+
+/* descrição do pokemon */
+.card-details{
+    background: #222222;
+    color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    background: #f04037;
+    border-top: 4px solid #58585b;
+}
+.card-types{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+.card-types li{
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+.weight-height{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+.habitat{
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+/* btn de fechar o card */
+#btnFecharCard{
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -5rem;
+    right: 1rem;
+    background-color: #ffcb05;
+    filter: drop-shadow(3px 3px 0 #3564ae);
+    transition: 0.1s;
+}
+#btnFecharCard p{
+    font-family: 'pokemonSolid';
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #fff;
+    filter: drop-shadow(3px 3px 0 #3564ae);
+}

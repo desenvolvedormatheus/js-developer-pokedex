@@ -1,5 +1,6 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
+const efeitoSonoro = document.querySelector("audio")
 
 const maxRecords = 151
 const limit = 10
@@ -43,4 +44,6 @@ loadMoreButton.addEventListener('click', () => {
     } else {
         loadPokemonItens(offset, limit)
     }
+
+    efeitoSonoro.play()
 })
